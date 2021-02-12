@@ -7,11 +7,15 @@ Ecology workshops
 {% if site.curriculum == "dc-ecology" %}
 
 {% if site.flavor == "r" %}
+<h3>R and RStudio</h3>
 <p>
-  The setup instructions for the Data Carpentry Ecology workshops (with R)
-  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html">
+  The setup instructions for R and RStudio 
+  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html#r-and-rstudio">
     the workshop overview site</a>.
 </p>
+<h3>Shell and Git</h3>
+{% include install_instructions/shell.html %}
+{% include install_instructions/git.html %}
 
 {% elsif site.flavor == "python" %}
 <p>
