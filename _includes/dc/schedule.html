@@ -10,16 +10,10 @@ The schedule for the different curricula are listed here:
 {% if site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>February 18 (R)</h3>
     <table class="table table-striped">
       <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
+        <td>1:00 pm</td>
         <td>
           {% if site.flavor == "r" %}
           <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
@@ -29,13 +23,13 @@ The schedule for the different curricula are listed here:
           {% include warning-flavor.html %}
           {% endif %}
       </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr> <td>5:00 pm</td> <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>February 19 (R)</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
+      <tr> <td>1:00 pm</td>
         <td>
           {% if site.flavor == "r" %}
           <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
@@ -46,17 +40,30 @@ The schedule for the different curricula are listed here:
           {% endif %}
         </td>
       </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
       <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
+	<td>5:00 pm</td>
+	<td>END</td>
       </tr>
     </table>
   </div>
+  <div class="col-md-6">
+    <h3>February 25 (Shell)</h3>
+    <table class="table table-striped">
+      <tr> <td>13:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
+      <tr> <td>14:30</td>  <td>Break</td> </tr>
+      <tr> <td>15:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
+      <tr> <td>17:00</td>  <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>February 26 (Git)</h3>
+    <table class="table table-striped">
+      <tr> <td>13:00</td>  <td>Version Control with Git</td> </tr>
+      <tr> <td>14:30</td>  <td>Break</td> </tr>
+      <tr> <td>15:00</td>  <td>Version Control with Git (Continued)</td> </tr>
+      <tr> <td>17:00</td>  <td>END</td> </tr>
+    </table>
+  </div>  	
 </div>
 
 {% elsif site.curriculum == "dc-genomics" %}
